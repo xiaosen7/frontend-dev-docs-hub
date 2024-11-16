@@ -1,5 +1,23 @@
 # frontend-dev-docs-hub
 
+## docs
+
+- lodash
+- ahooks-v3.7.10
+- antd-v5.15.1
+- lodash
+- react-router-v6
+- serve.js
+- antd-pro-components-v2.8.1
+- bixi-v4.2.1
+- react
+- rxjs-v8
+- umi-v4.3
+- antd-v4.x-stable
+- echarts
+- react-router-v5
+- rxjs-v8-zh_cn
+
 ## Features
 
 - Automatically scan and serve multiple document directories
