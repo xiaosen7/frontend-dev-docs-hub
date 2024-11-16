@@ -15,6 +15,5 @@
 
 ## Production Usage
 
-1. Run `yarn build` to build the project
-2. Copy the `public` directory to the target server
-3. Use `node public/serve.js` to start the server
+1. Download the `public` directory to the target server
+2. Use `node public/serve.js` to start the server
