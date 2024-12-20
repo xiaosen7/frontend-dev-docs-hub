@@ -5,11 +5,14 @@ import Koa from "koa";
 import serve from "koa-static";
 import path, { basename } from "path";
 
-const DEFAULT_ROOT_PORT = 4000;
+const DEFAULT_ROOT_PORT = 3600;
 const IP = ip.address();
 
 async function main() {
-  const publicDir = process.env.NODE_ENV === "production" ? __dirname : path.join(__dirname, "../public");
+  const publicDir =
+    process.env.NODE_ENV === "production"
+      ? __dirname
+      : path.join(__dirname, "../public");
   const docRoots = readdirSync(publicDir)
     .map((x) => path.join(publicDir, x))
     .filter((x) => statSync(x).isDirectory());

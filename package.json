@@ -18,7 +18,8 @@
     "get-port": "^7.1.0",
     "ip": "^2.0.1",
     "koa": "^2.15.3",
-    "koa-static": "^5.0.0"
+    "koa-static": "^5.0.0",
+    "marked": "^15.0.4"
   },
   "devDependencies": {
     "@types/ip": "^1.1.3",
